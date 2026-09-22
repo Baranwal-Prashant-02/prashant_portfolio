@@ -9,10 +9,10 @@ export const Hero: React.FC<HeroProps> = ({ onCopyEmail }) => {
   // Dynamic Typewriter state
   const roles = [
     'Full Stack Developer',
-    'MERN Stack Specialist',
-    'Python & Flask Architect',
-    'Constraint Logic & Systems Builder',
-    'Pre-Final B.Tech CSE (AKTU)',
+    'MERN Stack Developer',
+    'Software Developer',
+    'Python | C++ | Javascript',
+    'B.Tech CSE Graduate',
   ];
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onCopyEmail }) => {
     } else if (cmd === 'projects') {
       setTermOutput('★ Smart Timetable (MERN+Python) • ATS Resume Checker (React) • Driftline Chat (Sockets) • Placement Portal');
     } else if (cmd === 'skills') {
-      setTermOutput('⚡ React 18, Node.js, Express, Python Flask, MongoDB, MySQL, C++ (DSA & OOP)');
+      setTermOutput('⚡ React.js, Node.js, Express, Javascript, Python, Flask, MongoDB, MySQL, C++ (DSA & OOP)');
     }
   };
 
@@ -122,7 +122,7 @@ export const Hero: React.FC<HeroProps> = ({ onCopyEmail }) => {
             {/* Key Tech Stack Pill Badges */}
             <div className="pt-4 flex flex-wrap items-center gap-2 border-t border-slate-200 dark:border-white/10 w-full">
               <span className="text-xs font-mono text-slate-500 dark:text-slate-400 mr-1">CORE STACK:</span>
-              {['React 18', 'Node.js', 'Express.js', 'Python Flask', 'MongoDB', 'C++ (DSA)', 'Tailwind CSS'].map((stack) => (
+              {['React.js', 'Node.js', 'Express.js', 'Javascript', 'Python', 'Flask', 'MongoDB', 'MySQL', 'C++ (DSA)', 'Tailwind CSS'].map((stack) => (
                 <span
                   key={stack}
                   className="font-mono text-[11px] px-2.5 py-1 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-300 hover:border-cyan-500/40 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors shadow-xs"

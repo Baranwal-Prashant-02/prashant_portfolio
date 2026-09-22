@@ -21,7 +21,7 @@ export const Projects: React.FC = () => {
       icon: CalendarClock,
       iconColor: 'text-cyan-600 dark:text-cyan-400',
       badgeColor: 'bg-cyan-100 dark:bg-cyan-500/20 text-cyan-800 dark:text-cyan-300 border-cyan-200 dark:border-cyan-500/30',
-      tags: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Python', 'Recharts'],
+      tags: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Python', 'Recharts', 'RBAC'],
       githubUrl: 'https://github.com/Baranwal-Prashant-02/Smart-Timetable-Classroom-Allocation-system',
       architecture: {
         title: 'Smart Timetable & Classroom Allocation System',

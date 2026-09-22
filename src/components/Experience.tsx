@@ -88,7 +88,7 @@ export const Experience: React.FC = () => {
                   </h4>
                 </div>
                 <span className="px-3 py-1 rounded-full bg-cyan-50 dark:bg-cyan-500/10 border border-cyan-200 dark:border-cyan-500/20 text-cyan-800 dark:text-cyan-300 font-mono text-xs font-medium">
-                  2022 – 2026 (Pre-Final / Final Year)
+                  2022 – 2026 (Graduate)
                 </span>
               </div>
 

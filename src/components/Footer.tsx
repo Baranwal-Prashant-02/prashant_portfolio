@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-xs text-slate-600 dark:text-slate-400">
-              © 2026 <strong className="text-slate-900 dark:text-slate-200">Prashant Kumar Baranwal</strong> • Engineered with React 18, Tailwind CSS & Lucide.
+              © 2026 <strong className="text-slate-900 dark:text-slate-200">Prashant Kumar Baranwal</strong> • Making the Impossible, Just Another Commit.
             </p>
           </div>
 

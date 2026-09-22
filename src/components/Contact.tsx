@@ -118,7 +118,7 @@ export const Contact: React.FC<ContactProps> = ({ onCopyText }) => {
                 </div>
                 <div>
                   <span className="text-xs font-mono text-slate-500 dark:text-slate-400 block font-semibold">LOCATION & AVAILABILITY</span>
-                  <p className="text-sm font-semibold text-slate-900 dark:text-white">Kanpur, Uttar Pradesh, India</p>
+                  <p className="text-sm font-semibold text-slate-900 dark:text-white">Noida, Uttar Pradesh, India</p>
                   <p className="text-xs text-slate-600 dark:text-slate-400 mt-0.5">Timezone: IST (UTC +5:30) • Open to Remote & Relocation</p>
                 </div>
               </div>

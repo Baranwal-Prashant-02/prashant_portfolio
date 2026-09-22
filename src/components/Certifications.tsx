@@ -3,16 +3,27 @@ import { ShieldCheck, Award, Sparkles, FolderCheck, ExternalLink } from 'lucide-
 
 export const Certifications: React.FC = () => {
   const certs = [
+    // {
+    //   id: 'c1',
+    //   issuer: 'IIT KANPUR',
+    //   icon: ShieldCheck,
+    //   color: 'text-cyan-600 dark:text-cyan-400',
+    //   badgeBg: 'bg-cyan-50 dark:bg-cyan-500/10 text-cyan-800 dark:text-cyan-300 border-cyan-200 dark:border-cyan-500/20',
+    //   title: 'Cybersecurity & Network Security',
+    //   desc: 'E & ICT Academy, IIT Kanpur. Foundational principles in application security, network protection, and vulnerabilities.',
+    //   type: 'Verified Certificate',
+    //   link: 'https://raw.githubusercontent.com/Baranwal-Prashant-02/Certifications/main/IITK_Cybersecurity_Certificate.png'
+    // },
     {
       id: 'c1',
       issuer: 'IIT KANPUR',
-      icon: ShieldCheck,
-      color: 'text-cyan-600 dark:text-cyan-400',
-      badgeBg: 'bg-cyan-50 dark:bg-cyan-500/10 text-cyan-800 dark:text-cyan-300 border-cyan-200 dark:border-cyan-500/20',
-      title: 'Cybersecurity & Network Security',
-      desc: 'E & ICT Academy, IIT Kanpur. Foundational principles in application security, network protection, and vulnerabilities.',
-      type: 'Verified Certificate',
-      link: 'https://raw.githubusercontent.com/Baranwal-Prashant-02/Certifications/main/IITK_Cybersecurity_Certificate.png'
+      icon: Award,
+      color: 'text-yellow-600 dark:text-yellow-400',
+      badgeBg: 'bg-yellow-50 dark:bg-yellow-500/10 text-yellow-800 dark:text-yellow-300 border-yellow-200 dark:border-yellow-500/20',
+      title: 'Artificial Intelligence Workshop',
+      desc: 'Successfully completed an Artificial Intelligence workshop at TECHN0CRUISE\'25, organized by Techkriti\'25, IIT Kanpur, at Maharana Pratap Engineering College.',
+      type: 'Certificate of Achievement',
+      link: 'https://raw.githubusercontent.com/Baranwal-Prashant-02/Certifications/main/certificate%20IIT%20kanpur.jpeg'
     },
     {
       id: 'c2',

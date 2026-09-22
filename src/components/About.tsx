@@ -24,7 +24,7 @@ export const About: React.FC = () => {
                 
                 {/* Live Tag Overlay */}
                 <div className="absolute bottom-4 left-4 right-4 p-2.5 rounded-xl bg-white/90 dark:bg-[#090d16]/90 border border-slate-200 dark:border-white/15 backdrop-blur-md flex items-center justify-between text-xs font-mono shadow-md">
-                  <span className="text-slate-900 dark:text-white font-medium">Prashant Baranwal</span>
+                  <span className="text-slate-900 dark:text-white font-medium">Prashant Kr. Baranwal</span>
                   <span className="text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
                     Verified Dev
@@ -79,14 +79,14 @@ export const About: React.FC = () => {
               Engineering Philosophy
             </span>
             <h2 className="font-heading font-bold text-3xl sm:text-4xl text-slate-900 dark:text-white">
-              Turning Complex Constraints into Elegant Code
+              Engineering Ideas into Scalable Solutions
             </h2>
             
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
-              I am a pre-final year Computer Science Engineering student at <strong className="text-slate-900 dark:text-white font-semibold">Maharana Pratap Engineering College, Kanpur (affiliated with AKTU)</strong>. I bridge the gap between algorithmic problem-solving and modern full-stack web applications.
+              I am a Computer Science and Engineering graduate from <strong className="text-slate-900 dark:text-white font-semibold">Maharana Pratap Engineering College, Kanpur (affiliated with AKTU)</strong>, passionate about building scalable web applications and solving real-world problems through clean code, modern technologies, and innovative solutions.
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
-              During my <strong className="text-cyan-700 dark:text-cyan-400 font-semibold">Full Stack Web Development Internship at Unified Mentor</strong>, I gained hands-on experience delivering user-facing web features, enforcing robust input validation, and crafting responsive interfaces. My passion lies in engineering systems with real operational complexity—such as my university capstone project, an automated timetable scheduling engine that eliminated ~70% of room and instructor scheduling conflicts.
+              During my <strong className="text-cyan-700 dark:text-cyan-400 font-semibold">Full Stack Web Development Internship at Unified Mentor</strong>, I gained hands-on experience delivering user-facing web features, enforcing robust input validation, and crafting responsive interfaces. My passion lies in engineering systems with real operational complexity-such as my university capstone project, an automated timetable scheduling engine that eliminated ~70% of room and instructor scheduling conflicts.
             </p>
 
             {/* 4 Technical Pillars */}
@@ -136,7 +136,7 @@ export const About: React.FC = () => {
             <div className="pt-4 border-t border-slate-200 dark:border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs font-mono">
               <div>
                 <span className="text-slate-500 dark:text-slate-400 block font-semibold">LOCATION:</span>
-                <span className="text-slate-900 dark:text-white font-medium">Kanpur, UP, India</span>
+                <span className="text-slate-900 dark:text-white font-medium">Noida, UP, India</span>
               </div>
               <div>
                 <span className="text-slate-500 dark:text-slate-400 block font-semibold">RELOCATION:</span>
