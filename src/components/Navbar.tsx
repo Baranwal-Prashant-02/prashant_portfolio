@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, onToggleTheme }) => {
           </div>
           <div className="hidden sm:flex flex-col">
             <span className="font-heading font-bold text-base tracking-tight text-slate-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
-              Prashant Baranwal
+              Prashant Kumar Baranwal
             </span>
             <span className="flex items-center gap-1.5 text-[11px] font-mono text-emerald-600 dark:text-emerald-400 font-medium">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
